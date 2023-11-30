@@ -12,6 +12,10 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Trabajo Práctico Nro5 - Ejercicio3</title>
   </head>
@@ -20,13 +24,31 @@
       <nav class="navbar bg-light navbar-expand-lg ms-auto">
         <div class="container">
           <a href="./index.html" class="navbar-brand"
-            >Ejercicio 2 - Javascript</a
+            >Ejercicio 3 - Javascript</a
           >
         </div>
       </nav>
     </header>
     <main>
-    
+      <div class="container mt-5">
+        <h1 class="mb-4">
+          Lista de Tareas <i class="fa-solid fa-pen-to-square fa-lg"></i>
+        </h1>
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            id="tareaInput"
+            class="form-control me-2"
+            placeholder="Ingrese una tarea"
+          />
+          <div class="input-group-append">
+            <button class="btn btn-primary" id="agregarBtn">
+              <i class="fa-solid fa-check fa-lg"></i>
+            </button>
+          </div>
+        </div>
+        <ul id="listaTareas" class="list-group tareasFuente"></ul>
+      </div>
     </main>
     <footer class="bg-dark p-4 mt-2 text-center text-light">
       <p>&copy; Todos los derechos reservados</p>
