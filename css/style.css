@@ -4,10 +4,13 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #f8e680;
-  color: #6098ff;
+  color: rgb(9, 47, 120);
   font-family: sans-serif;
   font-size: 16px;
+  background-image: url('../img/fondoPapel.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 main {
